@@ -29,13 +29,6 @@ body{
     flex-grow: 1;
 }
 
-@media only screen and (max-width:500px) {
-    .grid{
-        flex-grow:1;
-    }
-    
-}
-
 .card-body{
     background: hsl(312, 0%, 12%);
     color: white;
