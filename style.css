@@ -9,6 +9,8 @@ body{
     padding: 20px;
     display: flex;
     gap: 20px;
+    flex-flow: wrap row;
+
 }
 
 .nav{
@@ -24,6 +26,14 @@ body{
 .card{
     border: 0;
     border-radius: 30px;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width:500px) {
+    .grid{
+        flex-grow:1;
+    }
+    
 }
 
 .card-body{
