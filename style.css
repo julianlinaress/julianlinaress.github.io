@@ -29,10 +29,24 @@ body{
     flex-grow: 1;
 }
 
+.card:hover::before{
+    border: none
+}
+
+.card:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 30px -6px #ffffff;
+}
+
+.card:hover::after{
+    border: none
+}
+
 .card-body{
     background: hsl(312, 0%, 12%);
     color: white;
     width: 100%;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
