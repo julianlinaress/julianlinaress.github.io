@@ -39,6 +39,12 @@ body{
     box-shadow: 0 0 30px -6px #ffffff;
 }
 
+.card:hover{
+    z-index: 5;
+    transition: 1s;
+    transform: scale(1.05);
+}
+
 .card:hover::after{
     border: none
 }
